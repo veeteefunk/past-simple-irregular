@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#icon-right1 {
+    color: green;
+    visibility: hidden;
+}
+
+#icon-wrong1 {
+    color: red;
+    visibility: hidden;
+}
+#icon-right2 {
+    color: green;
+    visibility: hidden;
+}
+
+#icon-wrong2 {
+    color: red;
+    visibility: hidden;
+}
+
+#icon-right3 {
+    color: green;
+    visibility: hidden;
+}
+
+#icon-wrong3 {
+    color: red;
+    visibility: hidden;
+}
+
+#icon-right4 {
+    color: green;
+    visibility: hidden;
+}
+
+#icon-wrong4 {
+    color: red;
+    visibility: hidden;
+}
+
+#icon-right5 {
+    color: green;
+    visibility: hidden;
+}
+
+#icon-wrong5 {
+    color: red;
+    visibility: hidden;
+}
+
+#icon-right6 {
+    color: green;
+    visibility: hidden;
+}
+
+#icon-wrong6 {
+    color: red;
+    visibility: hidden;
+}
+
+#icon-right7 {
+    color: green;
+    visibility: hidden;
+}
+
+#icon-wrong7 {
+    color: red;
+    visibility: hidden;
+}
+
+#icon-right8 {
+    color: green;
+    visibility: hidden;
+}
+
+#icon-wrong8 {
+    color: red;
+    visibility: hidden;
+}
+
+#icon-right9 {
+    color: green;
+    visibility: hidden;
+}
+
+#icon-wrong9 {
+    color: red;
+    visibility: hidden;
+}
+
+#icon-right10 {
+    color: green;
+    visibility: hidden;
+}
+
+#icon-wrong10 {
+    color: red;
+    visibility: hidden;
+}
