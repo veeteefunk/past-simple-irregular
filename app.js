@@ -1,24 +1,15 @@
 const form = document.querySelector('form');
-const iconRight1 = document.getElementById("icon-right1")
-const iconWrong1 = document.getElementById("icon-wrong1")
-const iconRight2 = document.getElementById("icon-right2")
-const iconWrong2 = document.getElementById("icon-wrong2")
-const iconRight3 = document.getElementById("icon-right3")
-const iconWrong3 = document.getElementById("icon-wrong3")
-const iconRight4 = document.getElementById("icon-right4")
-const iconWrong4 = document.getElementById("icon-wrong4")
-const iconRight5 = document.getElementById("icon-right5")
-const iconWrong5 = document.getElementById("icon-wrong5")
-const iconRight6 = document.getElementById("icon-right6")
-const iconWrong6 = document.getElementById("icon-wrong6")
-const iconRight7 = document.getElementById("icon-right7")
-const iconWrong7 = document.getElementById("icon-wrong7")
-const iconRight8 = document.getElementById("icon-right8")
-const iconWrong8 = document.getElementById("icon-wrong8")
-const iconRight9 = document.getElementById("icon-right9")
-const iconWrong9 = document.getElementById("icon-wrong9")
-const iconRight10 = document.getElementById("icon-right10")
-const iconWrong10 = document.getElementById("icon-wrong10")
+const tryAgain  = document.getElementById('try-again');
+const iconAnswer1 = document.getElementById("icon-answer1")
+const iconAnswer2 = document.getElementById("icon-answer2")
+const iconAnswer3 = document.getElementById("icon-answer3")
+const iconAnswer4 = document.getElementById("icon-answer4")
+const iconAnswer5 = document.getElementById("icon-answer5")
+const iconAnswer6 = document.getElementById("icon-answer6")
+const iconAnswer7 = document.getElementById("icon-answer7")
+const iconAnswer8 = document.getElementById("icon-answer8")
+const iconAnswer9 = document.getElementById("icon-answer9")
+const iconAnswer10 = document.getElementById("icon-answer10")
 
 form.addEventListener('submit', function(e) {
     e.preventDefault(); // Prevent form submission
@@ -34,14 +25,28 @@ form.addEventListener('submit', function(e) {
     const ex9 = document.getElementById("ex9").value
     const ex10 = document.getElementById("ex10").value
 
-    ex1 == "bought" ? iconRight1.style.visibility = "visible" : iconWrong1.style.visibility = "visible";
-    ex2 == "took" ? iconRight2.style.visibility = "visible" : iconWrong2.style.visibility = "visible";
-    ex3 == "came" ? iconRight3.style.visibility = "visible" : iconWrong3.style.visibility = "visible";
-    ex4 == "stood" ? iconRight4.style.visibility = "visible" : iconWrong4.style.visibility = "visible";
-    ex5 == "sang" ? iconRight5.style.visibility = "visible" : iconWrong5.style.visibility = "visible";
-    ex6 == "did" ? iconRight6.style.visibility = "visible" : iconWrong6.style.visibility = "visible";
-    ex7 == "found" ? iconRight7.style.visibility = "visible" : iconWrong7.style.visibility = "visible";
-    ex8 == "got" ? iconRight8.style.visibility = "visible" : iconWrong8.style.visibility = "visible";
-    ex9 == "went" ? iconRight9.style.visibility = "visible" : iconWrong9.style.visibility = "visible";
-    ex10 == "saw" ? iconRight10.style.visibility = "visible" : iconWrong10.style.visibility = "visible";
+    ex1 == "bought" ? iconAnswer1.classList.add("fa-circle-check") : iconAnswer1.classList.add("fa-circle-xmark");
+    ex2 == "took" ? iconAnswer2.classList.add("fa-circle-check") : iconAnswer2.classList.add("fa-circle-xmark");
+    ex3 == "came" ? iconAnswer3.classList.add("fa-circle-check") : iconAnswer3.classList.add("fa-circle-xmark");
+    ex4 == "stood" ? iconAnswer4.classList.add("fa-circle-check") : iconAnswer4.classList.add("fa-circle-xmark");
+    ex5 == "sang" ? iconAnswer5.classList.add("fa-circle-check") : iconAnswer5.classList.add("fa-circle-xmark");
+    ex6 == "did" ? iconAnswer6.classList.add("fa-circle-check") : iconAnswer6.classList.add("fa-circle-xmark");
+    ex7 == "found" ? iconAnswer7.classList.add("fa-circle-check") : iconAnswer7.classList.add("fa-circle-xmark");
+    ex8 == "got" ? iconAnswer8.classList.add("fa-circle-check") : iconAnswer8.classList.add("fa-circle-xmark");
+    ex9 == "went" ? iconAnswer9.classList.add("fa-circle-check") : iconAnswer9.classList.add("fa-circle-xmark");
+    ex10 == "saw" ? iconAnswer10.classList.add("fa-circle-check") : iconAnswer10.classList.add("fa-circle-xmark");
+});
+
+tryAgain.addEventListener('click', function(e) {
+    form.reset();
+    iconAnswer1.style.visibility = 'hidden'
+    iconAnswer2.style.visibility = 'hidden'
+    iconAnswer3.style.visibility = 'hidden'
+    iconAnswer4.style.visibility = 'hidden'
+    iconAnswer5.style.visibility = 'hidden'
+    iconAnswer6.style.visibility = 'hidden'
+    iconAnswer7.style.visibility = 'hidden'
+    iconAnswer8.style.visibility = 'hidden'
+    iconAnswer9.style.visibility = 'hidden'
+    iconAnswer10.style.visibility = 'hidden'
 });

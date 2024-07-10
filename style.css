@@ -12,7 +12,8 @@ body {
 }
 
 section {
-    margin: 3.8em;
+    margin: 2.5em 0 0 2.5em;
+    height: 100vh;
 }
 
 .ex-title {
@@ -20,17 +21,17 @@ section {
 }
 
 section h1 {
-    font-size: 1.8em;
+    font-size: 1.9em;
     color: darkblue;
 }
 
 section h3 {
-    margin: 1em 0;
+    margin: 0.8em 0;
     background-color: #b0c9ee;
     padding: 0.6em 1.2em;
     width: 50%;
     border-radius: 0.2em;
-    font-size: 1.2em;
+    font-size: 1.25em;
 }
 
 section form {
@@ -40,6 +41,15 @@ section form {
 section form p {
     line-height: 1.75em;
     margin: 0.6em 0;
+    font-size: 1.1em;
+}
+
+section form p input[type=text] {
+    outline: none;
+    height: 1.75em;
+    width: 14%;
+    /* border: 0;
+    background-color: #dfe; */
 }
 
 section form p .number {
@@ -59,7 +69,7 @@ section form p .number {
 input[type="submit"]  {
     border-radius: 0.6em;
     padding: 0.5em 2em;
-    margin: 1.4em 0;
+    margin: 1.4em 0 0;
     box-shadow: none;
     background-color: darkblue;
     color: white;
@@ -72,101 +82,30 @@ input[type="submit"]:hover {
     color: black;
 }
 
-#icon-right1 {
+.fa-circle-check {
     color: green;
-    visibility: hidden;
+    font-size: 1.4em;
+    font-weight: 600;
 }
 
-#icon-wrong1 {
+.fa-circle-xmark {
     color: red;
-    visibility: hidden;
-}
-#icon-right2 {
-    color: green;
-    visibility: hidden;
+    font-size: 1.4em;
+    font-weight: 600;
 }
 
-#icon-wrong2 {
-    color: red;
-    visibility: hidden;
+#try-again {
+    border-radius: 0.6em;
+    padding: 0.5em 2em;
+    margin: 1.4em 0 0;
+    box-shadow: none;
+    background-color: lightblue;
+    color: darkblue;
+    cursor: pointer;
+    font-size: 1em;
 }
 
-#icon-right3 {
-    color: green;
-    visibility: hidden;
-}
-
-#icon-wrong3 {
-    color: red;
-    visibility: hidden;
-}
-
-#icon-right4 {
-    color: green;
-    visibility: hidden;
-}
-
-#icon-wrong4 {
-    color: red;
-    visibility: hidden;
-}
-
-#icon-right5 {
-    color: green;
-    visibility: hidden;
-}
-
-#icon-wrong5 {
-    color: red;
-    visibility: hidden;
-}
-
-#icon-right6 {
-    color: green;
-    visibility: hidden;
-}
-
-#icon-wrong6 {
-    color: red;
-    visibility: hidden;
-}
-
-#icon-right7 {
-    color: green;
-    visibility: hidden;
-}
-
-#icon-wrong7 {
-    color: red;
-    visibility: hidden;
-}
-
-#icon-right8 {
-    color: green;
-    visibility: hidden;
-}
-
-#icon-wrong8 {
-    color: red;
-    visibility: hidden;
-}
-
-#icon-right9 {
-    color: green;
-    visibility: hidden;
-}
-
-#icon-wrong9 {
-    color: red;
-    visibility: hidden;
-}
-
-#icon-right10 {
-    color: green;
-    visibility: hidden;
-}
-
-#icon-wrong10 {
-    color: red;
-    visibility: hidden;
+#try-again:hover {
+    background-color: rgb(137, 152, 212);
+    color: black;
 }
