@@ -66,6 +66,18 @@ section form p .number {
     font-weight: 600;
 }
 
+.fa-circle-check {
+    color: green;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.fa-circle-xmark {
+    color: red;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
 input[type="submit"]  {
     border-radius: 0.6em;
     padding: 0.5em 2em;
@@ -82,24 +94,12 @@ input[type="submit"]:hover {
     color: black;
 }
 
-.fa-circle-check {
-    color: green;
-    font-size: 1.4em;
-    font-weight: 600;
-}
-
-.fa-circle-xmark {
-    color: red;
-    font-size: 1.4em;
-    font-weight: 600;
-}
-
 #try-again {
     border-radius: 0.6em;
     padding: 0.5em 2em;
-    margin: 1.4em 0 0;
+    margin: 1.4em 0 0 0.5em;
     box-shadow: none;
-    background-color: lightblue;
+    background-color: #b0c9ee;
     color: darkblue;
     cursor: pointer;
     font-size: 1em;
