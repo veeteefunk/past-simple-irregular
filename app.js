@@ -49,4 +49,5 @@ tryAgain.addEventListener('click', function(e) {
     iconAnswer8.style.visibility = 'hidden'
     iconAnswer9.style.visibility = 'hidden'
     iconAnswer10.style.visibility = 'hidden'
+    location.reload();
 });
